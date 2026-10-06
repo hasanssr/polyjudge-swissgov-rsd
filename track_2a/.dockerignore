@@ -1,0 +1,42 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# caches / outputs (the committed replay cache under data/replay_cache is NOT excluded)
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+outputs/
+
+# VCS / editor
+.git/
+.gitignore
+.idea/
+.vscode/
+.DS_Store
+.venv/
+venv/
+
+# organizers' repo and anything with gold labels must never enter the image
+organizers/
+organizers_repo/
+**/organizers*/
+**/test_results/
+**/*gold*
+
+# model weights
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+
+# committed predictions and docs are not needed at run time
+predictions/
+docs/
+README*.md
+technical_report.md

@@ -1,0 +1,6 @@
+# Runtime (make run / make live), pinned to the versions the frozen code was developed and tested with.
+# No torch, no sklearn, no pandas. Python 3.11.
+numpy==2.4.6
+huggingface_hub==1.33.0
+openai==3.24.0
+python-dotenv==1.2.4
