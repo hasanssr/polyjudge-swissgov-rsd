@@ -1,0 +1,5 @@
+# Keep LF everywhere: Makefile/Dockerfile must not get CRLF, prediction files must stay byte-identical (SHA256SUMS)
+* text=auto eol=lf
+*.jsonl text eol=lf
+*.json text eol=lf
+SHA256SUMS text eol=lf
