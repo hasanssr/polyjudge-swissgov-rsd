@@ -25,3 +25,10 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Caches and run outputs (committed replay cache lives in data/replay_cache/ and is NOT ignored)
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/
