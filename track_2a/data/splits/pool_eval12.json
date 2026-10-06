@@ -1,0 +1,48 @@
+{
+ "seed": 41,
+ "source": "prompt_pool",
+ "chunks": [
+  "c29e31a6e2c",
+  "c3b512bcd64",
+  "c4d264eb247",
+  "c5ebfa854f8"
+ ],
+ "doc_ids": [
+  "admin_de_148",
+  "admin_de_196",
+  "admin_de_45",
+  "admin_de_60",
+  "admin_fr_148",
+  "admin_fr_196",
+  "admin_fr_45",
+  "admin_fr_60",
+  "admin_it_148",
+  "admin_it_196",
+  "admin_it_45",
+  "admin_it_60"
+ ],
+ "fewshot_chunks": [
+  "c06a5eb0124",
+  "c0b71ea2d30",
+  "c12bf6db3d0",
+  "c1c12ca2c3f",
+  "c231e6cbf1c",
+  "c2c119248c4",
+  "c3ba30ba26c",
+  "c3e5d8c3b1c",
+  "c54e875de3c",
+  "c657c511769",
+  "c6814cb1824",
+  "c7a7f3f7ac7",
+  "c83072cba11",
+  "c862ca717c9",
+  "c8e7bdab7d5",
+  "ca95d5c08a6",
+  "ccee6f4ab96",
+  "cd3a61e4c0a",
+  "cde6be92aa3",
+  "ce14da9b403",
+  "cece570915e",
+  "cf2ca834e49"
+ ]
+}

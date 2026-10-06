@@ -1,0 +1,155 @@
+{
+ "de/b1": [
+  {
+   "doc": "admin_de_9",
+   "beads": [
+    5,
+    6
+   ]
+  },
+  {
+   "doc": "admin_de_49",
+   "beads": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "doc": "admin_de_3",
+   "beads": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "de/compare": [
+  {
+   "doc": "admin_de_29",
+   "beads": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "doc": "admin_de_103",
+   "beads": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "doc": "admin_de_9",
+   "beads": [
+    39,
+    40,
+    41
+   ]
+  }
+ ],
+ "fr/b1": [
+  {
+   "doc": "admin_fr_134",
+   "beads": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "doc": "admin_fr_3",
+   "beads": [
+    8,
+    9
+   ]
+  },
+  {
+   "doc": "admin_fr_9",
+   "beads": [
+    27,
+    28,
+    29
+   ]
+  }
+ ],
+ "fr/compare": [
+  {
+   "doc": "admin_fr_134",
+   "beads": [
+    23,
+    24,
+    26
+   ]
+  },
+  {
+   "doc": "admin_fr_49",
+   "beads": [
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "doc": "admin_fr_200",
+   "beads": [
+    56,
+    58,
+    59
+   ]
+  }
+ ],
+ "it/b1": [
+  {
+   "doc": "admin_it_73",
+   "beads": [
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "doc": "admin_it_68",
+   "beads": [
+    19,
+    20
+   ]
+  },
+  {
+   "doc": "admin_it_49",
+   "beads": [
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "it/compare": [
+  {
+   "doc": "admin_it_49",
+   "beads": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "doc": "admin_it_103",
+   "beads": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "doc": "admin_it_9",
+   "beads": [
+    18,
+    19,
+    20
+   ]
+  }
+ ]
+}

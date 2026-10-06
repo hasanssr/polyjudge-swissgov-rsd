@@ -1,0 +1,51 @@
+{
+ "seed": 77,
+ "source": "prompt_pool",
+ "chunks": [
+  "c54e875de3c",
+  "c657c511769",
+  "c7a7f3f7ac7",
+  "c8e7bdab7d5",
+  "ca95d5c08a6",
+  "cf2ca834e49"
+ ],
+ "doc_ids": [
+  "admin_de_176",
+  "admin_de_197",
+  "admin_de_203",
+  "admin_de_207",
+  "admin_de_219",
+  "admin_de_98",
+  "admin_fr_176",
+  "admin_fr_197",
+  "admin_fr_203",
+  "admin_fr_207",
+  "admin_fr_219",
+  "admin_fr_98",
+  "admin_it_176",
+  "admin_it_197",
+  "admin_it_203",
+  "admin_it_207",
+  "admin_it_219",
+  "admin_it_98"
+ ],
+ "fewshot_chunks": [
+  "c06a5eb0124",
+  "c0b71ea2d30",
+  "c12bf6db3d0",
+  "c1c12ca2c3f",
+  "c231e6cbf1c",
+  "c2c119248c4",
+  "c3ba30ba26c",
+  "c3e5d8c3b1c",
+  "c6814cb1824",
+  "c83072cba11",
+  "c862ca717c9",
+  "ccee6f4ab96",
+  "cd3a61e4c0a",
+  "cde6be92aa3",
+  "ce14da9b403",
+  "cece570915e"
+ ],
+ "note": "fewshot_chunks = tuning/few-shot set = prompt_pool minus pool_eval12 minus pool_eval2"
+}
