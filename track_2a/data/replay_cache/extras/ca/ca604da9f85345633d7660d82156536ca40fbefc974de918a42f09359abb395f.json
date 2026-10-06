@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Zum Seitenanfang\\nKontakt\\nE-Mail\\nSandra Hermle\\nKontaktinformationen drucken\", \"severity\": 1, \"before\": \"Letzte Änderung 26.04.2021\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1018, "completion_tokens": 71, "latency_s": 1.941, "aborted": false}

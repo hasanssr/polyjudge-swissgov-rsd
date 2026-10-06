@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"other\", \"quote\": \"Documentazione\", \"gist\": \"Documentation\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 247, "completion_tokens": 27, "latency_s": 0.975, "aborted": false}

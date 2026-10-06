@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Kontaktangaben der Mediensprecher und -sprecherinnen des UVEK\", \"gist\": \"Contact details of the media spokespersons of the UVEK\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 263, "completion_tokens": 56, "latency_s": 1.316, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Disposizione dei posti Consiglio degli Stati\\nLa Confederazione in breve - ordinare\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 830, "completion_tokens": 49, "latency_s": 1.358, "aborted": false}

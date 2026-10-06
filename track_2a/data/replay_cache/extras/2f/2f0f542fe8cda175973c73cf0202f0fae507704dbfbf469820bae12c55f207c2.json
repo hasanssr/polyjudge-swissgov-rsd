@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Documents\", \"severity\": 0.2, \"before\": \"Languages\\n\"}, {\"side\": \"tgt\", \"quote\": \"Opuscolo\", \"severity\": 0.2, \"before\": \"Documenti\\n\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 862, "completion_tokens": 70, "latency_s": 1.679, "aborted": false}

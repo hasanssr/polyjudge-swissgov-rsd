@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Specialist staff\", \"severity\": 1, \"before\": \"\"}, {\"side\": \"tgt\", \"quote\": \"Fachkontakt\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 972, "completion_tokens": 62, "latency_s": 1.421, "aborted": false}

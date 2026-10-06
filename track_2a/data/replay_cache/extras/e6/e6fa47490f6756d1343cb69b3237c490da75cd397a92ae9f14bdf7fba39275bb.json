@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Documenti\", \"severity\": 0.2, \"before\": \"Schedule\\n\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 936, "completion_tokens": 38, "latency_s": 1.236, "aborted": false}

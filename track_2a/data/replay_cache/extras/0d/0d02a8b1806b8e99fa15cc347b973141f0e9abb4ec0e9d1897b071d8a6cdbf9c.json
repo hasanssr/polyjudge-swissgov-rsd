@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"obligation\", \"quote\": \"Requests should be as precise as possible to help us identify the document.\", \"gist\": \"Requests must be precise to help identify the document.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 338, "completion_tokens": 48, "latency_s": 1.354, "aborted": false}

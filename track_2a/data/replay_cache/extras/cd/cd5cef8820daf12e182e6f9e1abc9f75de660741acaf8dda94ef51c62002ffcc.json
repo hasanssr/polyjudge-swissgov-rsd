@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Disposizione dei posti Consiglio nazionale\", \"severity\": 0.8, \"before\": \"Scaricare e ordinare\\nLa Confederazione in breve 2023 (PDF, 8 MB, 26.07.2023)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1048, "completion_tokens": 77, "latency_s": 1.66, "aborted": false}

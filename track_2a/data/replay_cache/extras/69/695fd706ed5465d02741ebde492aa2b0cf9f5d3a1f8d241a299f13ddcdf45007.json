@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Last modification 15.01.2025\", \"severity\": 1, \"before\": \"\"}, {\"side\": \"tgt\", \"quote\": \"Letzte Änderung 02.11.2022\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 992, "completion_tokens": 82, "latency_s": 1.787, "aborted": false}

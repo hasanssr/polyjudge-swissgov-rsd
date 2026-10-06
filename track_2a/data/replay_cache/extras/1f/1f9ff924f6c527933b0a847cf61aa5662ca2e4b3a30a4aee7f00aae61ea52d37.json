@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Shopping cart\", \"severity\": 0.2, \"before\": \"Contact\"}, {\"side\": \"tgt\", \"quote\": \"Warenkorb\", \"severity\": 0.2, \"before\": \"Kontakt\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1043, "completion_tokens": 70, "latency_s": 1.653, "aborted": false}

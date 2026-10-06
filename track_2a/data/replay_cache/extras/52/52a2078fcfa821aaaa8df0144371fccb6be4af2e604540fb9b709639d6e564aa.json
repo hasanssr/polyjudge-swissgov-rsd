@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Bundesrat setzt Planungskorridor für Hochspannungsleitung in Graubünden fest\", \"severity\": 1, \"before\": \"Medien\\n\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1078, "completion_tokens": 54, "latency_s": 1.459, "aborted": false}

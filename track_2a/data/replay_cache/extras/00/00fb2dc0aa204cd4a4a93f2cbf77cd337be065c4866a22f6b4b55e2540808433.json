@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Presidential Services Unit\", \"severity\": 0.6, \"before\": \"The \"}, {\"side\": \"tgt\", \"quote\": \"Service présidentiel\", \"severity\": 0.6, \"before\": \"La \"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1030, "completion_tokens": 70, "latency_s": 1.665, "aborted": false}

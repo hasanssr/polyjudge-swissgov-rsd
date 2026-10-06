@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Specialist staff\", \"gist\": \"A group of specialized personnel\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 248, "completion_tokens": 31, "latency_s": 0.862, "aborted": false}

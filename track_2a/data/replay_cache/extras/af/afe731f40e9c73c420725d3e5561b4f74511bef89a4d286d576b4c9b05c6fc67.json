@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Aramis\", \"gist\": \"Aramis (a project or program)\"}, {\"type\": \"entity\", \"quote\": \"DeCarbCH\", \"gist\": \"DeCarbCH (a project or program)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 276, "completion_tokens": 64, "latency_s": 1.496, "aborted": false}

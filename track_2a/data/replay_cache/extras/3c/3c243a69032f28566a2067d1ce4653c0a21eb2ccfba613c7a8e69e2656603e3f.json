@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Other blogs\", \"severity\": 0.2, \"before\": \"Energeia Blog: DeCarbCH: Was will das SWEET-Konsortium erreichen?\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 990, "completion_tokens": 56, "latency_s": 1.421, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"date\", \"quote\": \"02.07.2020\", \"gist\": \"Last modified on July 2, 2020\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 260, "completion_tokens": 45, "latency_s": 1.226, "aborted": false}

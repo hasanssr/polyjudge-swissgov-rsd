@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Communication Support Section\", \"gist\": \"A specific section or department\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 252, "completion_tokens": 32, "latency_s": 1.115, "aborted": false}

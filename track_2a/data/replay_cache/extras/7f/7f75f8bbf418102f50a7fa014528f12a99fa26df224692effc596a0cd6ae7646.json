@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"Les réponses sont dans ce court-métrage.\", \"gist\": \"The answers are in this short film.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 307, "completion_tokens": 40, "latency_s": 1.202, "aborted": false}

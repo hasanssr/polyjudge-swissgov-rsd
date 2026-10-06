@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"Tutte le risposte in questo breve video.\", \"gist\": \"All answers are in this short video.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 305, "completion_tokens": 41, "latency_s": 1.235, "aborted": false}

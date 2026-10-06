@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Zum Seitenanfang\\nBestellformular\", \"severity\": 1, \"before\": \"Kernenergie- und Strahlenschutzrecht Letzte Änderung 02.07.2020\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1024, "completion_tokens": 67, "latency_s": 1.535, "aborted": false}

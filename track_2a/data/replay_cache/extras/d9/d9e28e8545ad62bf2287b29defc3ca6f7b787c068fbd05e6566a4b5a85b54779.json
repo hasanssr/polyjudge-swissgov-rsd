@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Sektion Funkkonzessionen\\nTel. +41 58 460 58 33\\nkf-fk@bakom.admin.ch\\nKontaktinformationen drucken\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1022, "completion_tokens": 76, "latency_s": 1.797, "aborted": false}

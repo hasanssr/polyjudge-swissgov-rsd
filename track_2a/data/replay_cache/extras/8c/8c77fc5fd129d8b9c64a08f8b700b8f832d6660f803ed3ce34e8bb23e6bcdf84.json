@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Zum Seitenanfang\", \"severity\": 0.2, \"before\": \"Mitglieder der Jury für den Watt d'Or 2024 in alphabetischer Reihenfolge:\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1180, "completion_tokens": 58, "latency_s": 1.422, "aborted": false}

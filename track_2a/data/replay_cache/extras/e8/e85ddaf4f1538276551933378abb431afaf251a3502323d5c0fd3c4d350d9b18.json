@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"portavoce del DATEC\", \"gist\": \"spokespersons of the Swiss Federal Department of the Environment, Transport, Energy and Communications (DATEC)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 257, "completion_tokens": 52, "latency_s": 1.427, "aborted": false}

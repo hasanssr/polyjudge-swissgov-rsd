@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Für den Staatskundeunterricht\", \"severity\": 0.8, \"before\": \"Website\\nwww.ch-info.swiss/\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1021, "completion_tokens": 48, "latency_s": 1.13, "aborted": false}

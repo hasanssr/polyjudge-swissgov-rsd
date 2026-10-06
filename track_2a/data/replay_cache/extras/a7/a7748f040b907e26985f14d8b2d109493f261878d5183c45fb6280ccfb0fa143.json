@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"\", \"severity\": 1, \"before\": \"Federal State Calendar: Regulatory authority (in French)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 785, "completion_tokens": 42, "latency_s": 1.127, "aborted": false}

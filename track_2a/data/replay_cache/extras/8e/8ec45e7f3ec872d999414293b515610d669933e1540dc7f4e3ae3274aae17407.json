@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"lic.\", \"severity\": 0.2, \"before\": \"Martin Godel (*1973) holds Master’s degrees in international relations and in law and diplomacy.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1299, "completion_tokens": 57, "latency_s": 1.408, "aborted": false}

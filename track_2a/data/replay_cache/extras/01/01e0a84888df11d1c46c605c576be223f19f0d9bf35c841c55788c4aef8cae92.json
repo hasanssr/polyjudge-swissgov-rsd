@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Contact spécialisé\", \"severity\": 0.6, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 822, "completion_tokens": 37, "latency_s": 1.159, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"\", \"severity\": 1, \"before\": \"\"}, {\"side\": \"tgt\", \"quote\": \"Zum Seitenanfang\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 969, "completion_tokens": 58, "latency_s": 1.291, "aborted": false}

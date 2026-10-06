@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Shopping cart\", \"gist\": \"A virtual container for selected items in an online store.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 247, "completion_tokens": 36, "latency_s": 1.056, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"Requirements met for operating adaptive antennas\", \"gist\": \"The text states that the requirements for operating adaptive antennas have been met.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 360, "completion_tokens": 44, "latency_s": 1.248, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"other\", \"quote\": \"Zum Seitenanfang\", \"gist\": \"Link to go to the top of the page\"}, {\"type\": \"date\", \"quote\": \"07.01.2016\", \"gist\": \"Last modification date of the page\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 267, "completion_tokens": 69, "latency_s": 1.483, "aborted": false}

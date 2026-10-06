@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Centro delle pubblicazioni ufficiali (CPU)\", \"gist\": \"CPU (Center for Official Publications)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 378, "completion_tokens": 37, "latency_s": 1.108, "aborted": false}

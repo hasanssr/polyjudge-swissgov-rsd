@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Sitzplan Nationalrat\\nSitzplan Ständerat\", \"severity\": 0.2, \"before\": \"Der Bund kurz erklärt 2023 (PDF, 7 MB, 26.07.2023)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1227, "completion_tokens": 74, "latency_s": 1.569, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"underground installation recommended\", \"gist\": \"The monitoring group recommends an underground installation for the Grimsel line.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 304, "completion_tokens": 40, "latency_s": 1.169, "aborted": false}

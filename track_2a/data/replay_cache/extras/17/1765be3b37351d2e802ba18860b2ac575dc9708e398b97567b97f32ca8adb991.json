@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"Voraussetzungen zum Betrieb adaptiver Antennen sind erfüllt\", \"gist\": \"The prerequisites for operating adaptive antennas are met.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 408, "completion_tokens": 45, "latency_s": 1.194, "aborted": false}

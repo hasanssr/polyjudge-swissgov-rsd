@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Moduli WBT\", \"gist\": \"Web-based training modules\"}, {\"type\": \"entity\", \"quote\": \"Amministrazione federale\", \"gist\": \"Federal administration\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 261, "completion_tokens": 55, "latency_s": 1.414, "aborted": false}

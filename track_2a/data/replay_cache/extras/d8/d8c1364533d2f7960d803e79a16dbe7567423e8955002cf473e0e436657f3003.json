@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"La ligne du Grimsel doit être en grande partie enterrée.\", \"gist\": \"The Grimsel line must be largely buried.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 337, "completion_tokens": 44, "latency_s": 1.278, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"porte-parole du DETEC\", \"gist\": \"spokespersons of the DETEC (Swiss Federal Department of Environment, Transport, Energy and Communications)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 256, "completion_tokens": 54, "latency_s": 1.414, "aborted": false}

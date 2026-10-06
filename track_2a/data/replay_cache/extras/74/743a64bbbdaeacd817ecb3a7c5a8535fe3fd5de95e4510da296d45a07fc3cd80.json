@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Programma dei membri del Consiglio federale che partecipano al WEF Annual Meeting 2023\", \"severity\": 0.6, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 822, "completion_tokens": 55, "latency_s": 1.404, "aborted": false}

@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Carrello aquisti\", \"severity\": 0.8, \"before\": \"dichiarazione@sbfi.admin.ch\\n\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 807, "completion_tokens": 50, "latency_s": 1.356, "aborted": false}

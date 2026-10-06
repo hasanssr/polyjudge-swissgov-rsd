@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"DETEC press spokesperson\", \"gist\": \"the press spokesperson for DETEC\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 254, "completion_tokens": 35, "latency_s": 1.035, "aborted": false}

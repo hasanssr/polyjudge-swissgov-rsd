@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"en\", \"quote\": \"Specialist staff\", \"severity\": 0.8, \"before\": \"The task of the DTI Sector is to ensure...\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1037, "completion_tokens": 47, "latency_s": 1.241, "aborted": false}

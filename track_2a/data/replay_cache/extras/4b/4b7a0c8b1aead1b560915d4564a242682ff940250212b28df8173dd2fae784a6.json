@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"una Nanoverbund, una mini rete di riscaldamento a distanza\", \"severity\": 0.6, \"before\": \"form a micro-district heating network.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 1067, "completion_tokens": 57, "latency_s": 1.439, "aborted": false}

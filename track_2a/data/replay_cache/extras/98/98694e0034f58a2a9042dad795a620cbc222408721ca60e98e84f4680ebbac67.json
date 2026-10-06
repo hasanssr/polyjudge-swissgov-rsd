@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"entity\", \"quote\": \"Centre\", \"gist\": \"a center (likely an organization or institution)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 268, "completion_tokens": 33, "latency_s": 1.154, "aborted": false}

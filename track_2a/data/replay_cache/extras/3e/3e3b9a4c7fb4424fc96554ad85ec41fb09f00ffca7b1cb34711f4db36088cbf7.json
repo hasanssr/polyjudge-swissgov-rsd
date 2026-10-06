@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Die Kontaktangaben der Mediensprecher und -sprecherinnen des UVEK\", \"severity\": 1, \"before\": \"\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 992, "completion_tokens": 50, "latency_s": 1.274, "aborted": false}

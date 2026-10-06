@@ -1,0 +1,1 @@
+{"text": "{\"differences\": [{\"side\": \"tgt\", \"quote\": \"Messaggio per lo specialista\", \"severity\": 0.8, \"before\": \"Ordinanza sull’energia del 1° novembre 2017 (OEn)\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 865, "completion_tokens": 60, "latency_s": 1.522, "aborted": false}

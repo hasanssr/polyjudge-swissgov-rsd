@@ -1,0 +1,1 @@
+{"text": "{\"results\": [{\"id\": 1, \"match\": [\"B\"]}, {\"id\": 2, \"match\": [\"A\"]}, {\"id\": 3, \"match\": [\"D\"]}, {\"id\": 4, \"match\": [\"D\"]}]}", "model": "swiss-ai/Apertus-v1.5-8B", "finish_reason": "stop", "prompt_tokens": 736, "completion_tokens": 58, "latency_s": 1.037, "aborted": false}

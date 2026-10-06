@@ -1,0 +1,100 @@
+{
+ "de": [
+  {
+   "doc": "admin_de_49",
+   "beads": [
+    1
+   ]
+  },
+  {
+   "doc": "admin_de_9",
+   "beads": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "doc": "admin_de_9",
+   "beads": [
+    42,
+    45,
+    46
+   ]
+  },
+  {
+   "doc": "admin_de_103",
+   "beads": [
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "fr": [
+  {
+   "doc": "admin_fr_95",
+   "beads": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "doc": "admin_fr_27",
+   "beads": [
+    5,
+    6
+   ]
+  },
+  {
+   "doc": "admin_fr_200",
+   "beads": [
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "doc": "admin_fr_160",
+   "beads": [
+    12,
+    13,
+    14
+   ]
+  }
+ ],
+ "it": [
+  {
+   "doc": "admin_it_49",
+   "beads": [
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "doc": "admin_it_68",
+   "beads": [
+    19,
+    20
+   ]
+  },
+  {
+   "doc": "admin_it_69",
+   "beads": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "doc": "admin_it_103",
+   "beads": [
+    8,
+    9,
+    10
+   ]
+  }
+ ]
+}

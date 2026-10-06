@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"Bundesrat setzt zwei Planungskorridore für die Grimselleitung fest\", \"gist\": \"The Federal Council establishes two planning corridors for the Grimselleitung.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 312, "completion_tokens": 54, "latency_s": 1.746, "aborted": false}

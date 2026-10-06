@@ -1,0 +1,1 @@
+{"text": "{\"components\": [{\"type\": \"claim\", \"quote\": \"About 470 questions are submitted annually.\", \"gist\": \"Approximately 470 questions are submitted each year.\"}]}", "model": "swiss-ai/Apertus-v1.5-70B", "finish_reason": "stop", "prompt_tokens": 306, "completion_tokens": 44, "latency_s": 1.199, "aborted": false}
