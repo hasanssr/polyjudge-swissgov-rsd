@@ -35,6 +35,7 @@ Components, data flow and where each one runs: `TODO`. Diagrams go in `docs/`.
 - **Experiments and negative results:** `TODO` (each: setup, dev result, why it did or did not help; include the ones that failed).
 - **Prompts, serving stack, sampling settings:** `TODO`
 - **Other models used during development (judges, etc.):** `TODO or "none"`
+- **AI-assistance disclosure:** Implementation was done with Claude Code (Anthropic) as a coding assistant. The research design, preregistration protocol, experiment decisions and all interpretation were directed and reviewed by the author.
 
 ## 4. Data
 

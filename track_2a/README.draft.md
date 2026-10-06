@@ -2,6 +2,8 @@
 
 (Draft. The organizers' challenge text stays in `README.md`; merge or replace as you prefer.)
 
+> **AI-assistance disclosure.** Implementation was done with Claude Code (Anthropic) as a coding assistant. The research design, preregistration protocol, experiment decisions and all interpretation were directed and reviewed by the author.
+
 Two systems are presented, both reproduced by `make run` **offline** (no API key, no network):
 
 | System | Output | How it works offline |
