@@ -204,7 +204,10 @@ These are ideas, not results.
 
 ## License
 
-Creative Commons Attribution 4.0 (CC-BY-4.0). All HackApertus projects are open-sourced.
+All HackApertus projects are open-sourced (Terms & Conditions, section 6). This submission:
+
+- **Code** (`src/`, `scripts/`, `tests/`, `Dockerfile`, `Makefile`): Apache-2.0 (`LICENSE` at the repository root).
+- **Documentation** (this report, the 2-page summary in PDF/HTML, and the files in `docs/`): Creative Commons Attribution 4.0 (CC-BY-4.0).
 
 Third-party material:
 

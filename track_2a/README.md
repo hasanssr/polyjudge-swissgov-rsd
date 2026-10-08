@@ -55,6 +55,12 @@ Judging criteria also differ by challenge. See the respective challenge descript
 Please check our Terms & Conditions (6. What you build is open source):
 https://hackapertus.ch/terms-and-conditions
 
+**Licences of this submission**
+- Code (`src/`, `scripts/`, `tests/`, `Dockerfile`, `Makefile`): Apache-2.0 (the `LICENSE` file at the repository root).
+- Documentation, the technical report and the 2-page summary (PDF/HTML): CC-BY-4.0.
+- Third-party data (SwissGov-RSD test inputs and the few-shot documents, by Wastl, Vamvas and Sennrich): CC-BY-4.0; attribution for the few-shot documents is in `data/few_shot/ATTRIBUTION.md`.
+- The organizers' evaluation code has no licence and is not redistributed.
+
 ## FAQ
 💡 https://hackapertus.ch/faq
 

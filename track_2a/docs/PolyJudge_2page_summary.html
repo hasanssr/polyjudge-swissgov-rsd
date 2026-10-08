@@ -88,7 +88,7 @@
 <ul>
   <li><code>make run</code> writes M1 and B0 predictions offline (<code>--network none</code>, no API key) from a replay cache of 5 174 entries in total (5.07 MB; M1 alone 332 entries). <code>make run METHOD=M0|M2|M3|B0</code>, <code>make live</code> and <code>make test</code> are the other targets. Measured on the author's laptop (no local GPU): image 403 MB, build from scratch 41.9 s, <code>make run</code> 34.0 to 35.3 s in three runs, outputs identical to the recorded hashes (<code>docs/reproducibility_measurements.md</code>).</li>
   <li>Frozen code hash <code>8391d36a&hellip;e0bb62</code>; prediction hashes in <code>docs/test_prediction_hashes.md</code>.</li>
-  <li>Data: SwissGov-RSD, CC-BY-4.0 (Wastl, Vamvas, Sennrich). The organizers' evaluation code has no licence and is not redistributed. This repository: CC-BY-4.0.</li>
+  <li>Data: SwissGov-RSD, CC-BY-4.0 (Wastl, Vamvas, Sennrich). The organizers' evaluation code has no licence and is not redistributed. This repository: code Apache-2.0, documentation (report, this summary, <code>docs/</code>) CC-BY-4.0.</li>
   <li>Implementation was done with Claude Code (Anthropic) as a coding assistant; research design, protocol, decisions and interpretation were directed and reviewed by the author.</li>
   <li>Links: repository https://github.com/hasanssr/polyjudge-swissgov-rsd; technical report <code>track_2a/technical_report.md</code>.</li>
 </ul>
