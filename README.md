@@ -1,3 +1,7 @@
+> **Track 2A submission (PolyJudge).** This repository holds the submission in `track_2a/`.
+> Start with [`track_2a/README.md`](track_2a/README.md) (how to run, systems, licences) and [`track_2a/technical_report.md`](track_2a/technical_report.md).
+> The template text below is kept unchanged.
+
 # Hack Apertus — project template
 
 Template repository for [Hack Apertus](https://hackapertus.ch/) submissions.
