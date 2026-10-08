@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PolyJudge - Track 2A short method description</title>
+<style>
+  @page { size: A4; margin: 14mm 15mm 14mm 15mm; }
+  * { box-sizing: border-box; }
+  html { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: #1a1a1a; background: #fff; }
+  body { margin: 0; font-size: 9.4pt; line-height: 1.38; }
+  h1 { font-size: 15pt; margin: 0 0 1mm 0; }
+  .sub { color: #444; margin: 0 0 3mm 0; font-size: 9pt; }
+  h2 { font-size: 10.6pt; margin: 4mm 0 1.2mm 0; padding-bottom: 0.6mm; border-bottom: 0.4mm solid #bbb; break-after: avoid; }
+  p { margin: 0 0 1.6mm 0; }
+  ul, ol { margin: 0 0 1.6mm 0; padding-left: 5mm; }
+  li { margin-bottom: 0.9mm; }
+  table { border-collapse: collapse; width: 100%; margin: 1mm 0 2mm 0; font-size: 8.6pt; break-inside: avoid; }
+  th, td { border: 0.25mm solid #999; padding: 0.7mm 1.6mm; text-align: left; vertical-align: top; }
+  th { background: #eee; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  tr.main td { background: #f1f6ff; font-weight: 600; }
+  code { font-family: Consolas, "Courier New", monospace; font-size: 8.4pt; }
+  .note { font-size: 8.4pt; color: #333; }
+  .page2 { break-before: page; }
+</style>
+</head>
+<body>
+
+<section class="page1">
+<h1>PolyJudge: Track 2A short method description</h1>
+<p class="sub">UZH challenge: detecting cross-lingual semantic differences in Swiss government websites. Team: Solo, Hasan Sar&#305;. Repository: https://github.com/hasanssr/polyjudge-swissgov-rsd</p>
+
+<h2>1. Problem and task</h2>
+<p>For an English government web page and its German, French or Italian version, predict a score in [0, 1] for every whitespace token on both sides (how strongly the token belongs to a semantic difference), and -1 on ASCII punctuation tokens. Data: SwissGov-RSD (Wastl, Vamvas, Sennrich; CC-BY-4.0). Metric: the organizers' token-level Spearman, pooled per language, macro average over de/fr/it. No training data is used; Apertus is used by prompting only (CSCS Inference API, models <code>swiss-ai/Apertus-v1.5-70B</code> and <code>-8B</code>). The project name comes from the original multi-agent idea (M2, with a "judge" role); the submitted main system M1 is alignment-first.</p>
+
+<h2>2. Systems</h2>
+<table>
+  <tr><th>id</th><th>role</th><th>what it does</th><th>Apertus</th></tr>
+  <tr class="main"><td>M1</td><td>main system</td><td>Model-free sentence alignment (dynamic programming over length, position, numbers, names); tokens of unpaired sentences = 1.0. Apertus-70B verifies deterministic candidate flags (numbers, parentheticals, untranslated text); a flag counts only if two independent samples both say "real" at level 1.0.</td><td>70B</td></tr>
+  <tr><td>B0</td><td>additional baseline, reproducible</td><td>The model-free base of M1 without the verifier.</td><td>none</td></tr>
+  <tr><td>M0</td><td>comparison</td><td>Simple prompting: one 70B call per sentence group with 3 few-shot examples per language.</td><td>70B</td></tr>
+  <tr><td>M2</td><td>comparison</td><td>Multi-agent: blind extractors (English / target) then compare then verifier, on aligned groups.</td><td>70B</td></tr>
+  <tr><td>M3</td><td>comparison</td><td>Apertus-judged alignment: 8B answers which sentence matches, 70B judges disagreements with the aligner.</td><td>8B + 70B</td></tr>
+</table>
+<p class="note">M1 qualifies as Apertus-based because its sentence pairing is completely model-free (challenge owner, e-mail of 5 October 2026; excerpts in <code>docs/owner_confirmations.md</code>). The aligner is tested to load no model or LLM code.</p>
+
+<h2>3. Main result (public test split, 168 documents, scored once)</h2>
+<table>
+  <tr><th>method</th><th class="n">DE</th><th class="n">FR</th><th class="n">IT</th><th class="n">macro</th><th>macro 95 % CI</th><th>diff to M0 [95 % CI]</th></tr>
+  <tr><td>B0</td><td class="n">0.390</td><td class="n">0.108</td><td class="n">0.320</td><td class="n">0.273</td><td>[0.201, 0.330]</td><td>+0.060 [-0.003, +0.116]</td></tr>
+  <tr><td>M0</td><td class="n">0.296</td><td class="n">0.122</td><td class="n">0.221</td><td class="n">0.213</td><td>[0.139, 0.278]</td><td>reference</td></tr>
+  <tr class="main"><td>M1 (main)</td><td class="n">0.396</td><td class="n">0.108</td><td class="n">0.324</td><td class="n">0.276</td><td>[0.204, 0.334]</td><td>+0.063 [+0.001, +0.118]</td></tr>
+  <tr><td>M2</td><td class="n">0.354</td><td class="n">0.131</td><td class="n">0.284</td><td class="n">0.256</td><td>[0.187, 0.314]</td><td>+0.043 [-0.021, +0.101]</td></tr>
+  <tr><td>M3</td><td class="n">0.373</td><td class="n">0.079</td><td class="n">0.316</td><td class="n">0.256</td><td>[0.195, 0.301]</td><td>+0.043 [-0.007, +0.098]</td></tr>
+</table>
+<p class="note">Intervals: chunk bootstrap, 1 000 resamples, seed 0, paired with M0. Choosing the best of four candidates on the same split is optimistic: the intervals do not account for the selection, and M1's score is not an unbiased estimate for new data.</p>
+
+<h2>4. Three key findings</h2>
+<ol>
+  <li><b>Almost all of M1's score comes from the model-free base.</b> M1 (0.276) is 0.003 above B0 (0.273); the verifier adds only 74 flagged tokens (5 086 vs 5 012 predicted &gt; 0). The Apertus contribution on top of the model-free base is small. M1 is ahead of M0 by +0.063, but the lower bound of that interval is +0.001.</li>
+  <li><b>Simple prompting over-flags, and LLM spans were not precise enough to help.</b> M0 marks 33 616 tokens as nonzero where the gold has 15 840. On the 78 development-pool documents (cross-validation), flags accepted by the 70B verifier had token precision 32.1 %, below the roughly 40 % needed to raise pooled Spearman over a base that is 92 % ties; the gain was -0.021 [-0.043, +0.021].</li>
+  <li><b>More agents did not help.</b> M2 and M3 did not beat M1 (both 0.256), and their intervals against M0 include zero. In the ablation, debate-style agents had lower flag precision (24.3 %) than the verifier alone on deterministic candidates (45.4 %, on 6 chunks only; 32.1 % on all 78 documents).</li>
+</ol>
+</section>
+
+<section class="page2">
+<h2>5. Protocol and honesty notes</h2>
+<ul>
+  <li><b>Splits.</b> <code>prompt_pool</code> (78 documents) is the only data used for tuning prompts, examples and thresholds. <code>dev_select</code> (15 documents, 5 chunks, a subset fixed by a budget rule) screened the five candidates; its results are noisy (every interval against M0 contains zero). <code>dev_final</code> was locked and never opened.</li>
+  <li><b>Preregistration.</b> Written before the first <code>dev_select</code> run, with code hash and decision rules. Three dated addenda: owner confirmations (no rule changed), a single-flight fix in the LLM client (new code hash, same prompts and parameters), and the rules for the final ranking, written before any test prediction.</li>
+  <li><b>Test run once.</b> Test predictions were generated from inputs only, hashed, and replayed from the cache with identical hashes. Only after that were the public test labels opened, with the written permission of the challenge owner (UZH, e-mail of 5 October 2026; <code>docs/owner_confirmations.md</code>), and each candidate was scored exactly once.</li>
+  <li><b>Selection.</b> The main system was picked by the preregistered rule: highest test macro Spearman among M0 to M3 (B0 never eligible). M1 was 0.0198 ahead of M2, more than the 0.005 tie margin.</li>
+  <li><b>Stability.</b> On <code>dev_select</code> the order was M2 &gt; M1 &gt; B0 &gt; M3 &gt; M0; on test it was M1 &gt; B0 &gt; M2 = M3 &gt; M0. Small samples reorder close candidates.</li>
+  <li><b>Packaging after the freeze</b> changed where inputs, few-shot examples and the scorer come from, not any algorithm, prompt or parameter. All five methods reproduce the frozen predictions byte for byte offline (<code>docs/code_changes_after_freeze.md</code>).</li>
+</ul>
+
+<h2>6. Limitations</h2>
+<ul>
+  <li>Small evaluation sets: 15 <code>dev_select</code> documents; cross-validation on 78 <code>prompt_pool</code> documents with wide intervals (macro 0.425, [0.257, 0.550] for the model-free aligner); 56 test documents per language.</li>
+  <li>French is weak for every method (0.079 to 0.131); the macro score is carried by German and Italian.</li>
+  <li>The SwissGov-RSD labels were re-annotated in April 2026. Published numbers (best macro 18.1, Spearman &times; 100) use the full benchmark and possibly other labels, so they are not comparable with ours.</li>
+  <li><code>make eval</code> (the organizers' scorer inside the image) was not executed in the verification of the repository.</li>
+  <li>M2's <code>dev_select</code> run cannot be replayed from the cache (20 of 86 Compare requests missing, because identical in-flight requests were sent separately); the fix is single-flight merging, used for the test run.</li>
+  <li>Predictions assume whitespace tokens of the given tokenized text and -1 on ASCII punctuation only; the format rules were relayed to us and not re-checked against the organizers' script.</li>
+</ul>
+
+<h2>7. Reproducibility and licences</h2>
+<ul>
+  <li><code>make run</code> writes M1 and B0 predictions offline (<code>--network none</code>, no API key) from a replay cache of 5 174 entries in total (5.07 MB; M1 alone 332 entries). <code>make run METHOD=M0|M2|M3|B0</code>, <code>make live</code> and <code>make test</code> are the other targets. Measured on the author's laptop (no local GPU): image 403 MB, build from scratch 41.9 s, <code>make run</code> 34.0 to 35.3 s in three runs, outputs identical to the recorded hashes (<code>docs/reproducibility_measurements.md</code>).</li>
+  <li>Frozen code hash <code>8391d36a&hellip;e0bb62</code>; prediction hashes in <code>docs/test_prediction_hashes.md</code>.</li>
+  <li>Data: SwissGov-RSD, CC-BY-4.0 (Wastl, Vamvas, Sennrich). The organizers' evaluation code has no licence and is not redistributed. This repository: CC-BY-4.0.</li>
+  <li>Implementation was done with Claude Code (Anthropic) as a coding assistant; research design, protocol, decisions and interpretation were directed and reviewed by the author.</li>
+  <li>Links: repository https://github.com/hasanssr/polyjudge-swissgov-rsd; technical report <code>track_2a/technical_report.md</code>.</li>
+</ul>
+</section>
+
+</body>
+</html>
