@@ -191,6 +191,7 @@ make test                # unit tests, network disabled
   - Frozen code hash (development project, used for the test run): `8391d36ad46ca14bd1b5da25dbdd1eb6ee8ca043fff38f5e71b595d329e0bb62`; this repository: `d5a8bb46865c3fe1a0c067aaa3e76eb50b870db89df63d7829ece2a67929b735` (differences listed in `docs/code_changes_after_freeze.md`).
   - Prediction files: sha256 of all 15 files in `docs/test_prediction_hashes.md` and `predictions/SHA256SUMS` (identical; recorded before any test label was read). `make run` and `make run METHOD={M0,M2,M3}` reproduce them byte for byte.
 - **Measured on the author's laptop** (2026-10-06, fresh copy of the tree, details and commands in `docs/reproducibility_measurements.md`): `docker build --no-cache` of the runtime image 41.9 s (needs network); image size 403 MB; `make run` 34.0 s, 34.3 s and 35.3 s in three consecutive runs (no measurable cold/warm difference once the image exists); validator `OK: 3 file(s) valid` for M1 and B0; all 6 output files identical to `predictions/SHA256SUMS`. `make test` and `make eval` were not timed.
+- Optional offline viewer: `track_2a/demo/` (frozen predictions and recorded M2 outputs, replay only, not needed for `make run`).
 - **Test run cost** (calls sent): 70B 3 859 and 8B 1 314 over all five methods; M1 alone 332 calls.
 
 ## 8. Next steps

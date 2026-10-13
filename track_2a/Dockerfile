@@ -5,7 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONHASHSEED=0 PYTHONPATH=/ap
 WORKDIR /app
 
 COPY requirements.lock ./
-RUN pip install --no-cache-dir -r requirements.lock
+RUN pip install --no-cache-dir --retries 5 --default-timeout 60 -r requirements.lock
 
 # The frozen code resolves paths relative to the package's parent (ROOT=/app):
 #   /app/polyjudge  /app/splits  /app/cache (replay cache)  /app/data/test_input

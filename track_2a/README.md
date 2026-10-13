@@ -4,10 +4,12 @@
 
 Team: Solo, Hasan Sarı. Repository: https://github.com/hasanssr/polyjudge-swissgov-rsd
 
-Links: [technical report](technical_report.md) | [2-page summary (PDF)](docs/PolyJudge_2page_summary.pdf) | [docs/](docs/) (preregistration with addenda, test results, hashes, owner confirmations, measurements)
+Links: [technical report](technical_report.md) | [2-page summary (PDF)](docs/PolyJudge_2page_summary.pdf) | [optional offline viewer](demo/README.md) | [docs/](docs/) (preregistration with addenda, test results, hashes, owner confirmations, measurements)
 
 ### How to run
 Needs only Docker and `make` (no GPU, no API key, no model weights). `make run` is **offline**: it builds the image, then runs with `docker run --network none`; Apertus answers are replayed from a committed cache, and a cache miss is an error, never an API call.
+
+Note: the first `make run` builds the Docker image and needs network access once, to download the pinned Python packages (`requirements.lock`). The prediction step itself runs with `--network none` and needs no API key.
 
 ```bash
 git clone https://github.com/hasanssr/polyjudge-swissgov-rsd.git
