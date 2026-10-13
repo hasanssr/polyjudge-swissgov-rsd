@@ -3,7 +3,11 @@
 An offline viewer of the **frozen predictions** (B0, M0, M1, M2, M3) and the **recorded M2 outputs** (the multi-agent method, shown as a replay). It is **not live**: nothing is computed, no model is called, no network is used. It is optional and not needed for `make run`.
 
 ## Open
-Double-click `dist/polyjudge_viewer.html` (any modern browser; it works from `file://`). Press **F11** for full screen and **P** for presentation mode (Esc leaves it). The page opens on the PolyJudge tab; keys 1/2/3 switch between Viewer, PolyJudge and Scoreboard.
+Double-click `dist/polyjudge_viewer.html` (any modern browser; it works from `file://`).
+
+`dist/polyjudge_viewer.html` is included in the repository: 7 634 615 bytes (7.28 MiB), sha256 `66b301695f07e97df4f7fe5635a708cc2ecb377dadcd689843f44dafc8d66b7c`. It can be rebuilt with `python build_viewer.py` (byte-identical result).
+
+Press **F11** for full screen and **P** for presentation mode (Esc leaves it). The page opens on the PolyJudge tab; keys 1/2/3 switch between Viewer, PolyJudge and Scoreboard.
 
 ## Rebuild
 ```bash

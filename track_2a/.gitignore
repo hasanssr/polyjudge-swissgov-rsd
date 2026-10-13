@@ -19,6 +19,7 @@ venv/
 # Node
 node_modules/
 dist/
+!demo/dist/
 build/
 
 # OS and editor
