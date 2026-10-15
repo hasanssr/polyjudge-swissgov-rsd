@@ -7,7 +7,7 @@ numbers say. Also covers the specific submission requirements of the UZH challen
 - **Event:** Online
 - **Team:** Solo — Hasan Sarı
 - **Repository:** https://github.com/hasanssr/polyjudge-swissgov-rsd
-- **Demo:** `TODO link to video, deployment, or notebook (or "none")`
+- **Demo:** https://youtu.be/Yq5JUif_B9I (unlisted video); optional offline viewer in `demo/`
 
 ## 1. Summary
 

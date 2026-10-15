@@ -4,6 +4,8 @@
 
 Team: Solo, Hasan Sarı. Repository: https://github.com/hasanssr/polyjudge-swissgov-rsd
 
+Demo video (unlisted): https://youtu.be/Yq5JUif_B9I
+
 Links: [technical report](technical_report.md) | [2-page summary (PDF)](docs/PolyJudge_2page_summary.pdf) | [optional offline viewer](demo/README.md) | [docs/](docs/) (preregistration with addenda, test results, hashes, owner confirmations, measurements)
 
 ### How to run
